@@ -8,7 +8,7 @@ const Article = ({ article }) => {
       <div>
         <div >
         <h1>{article.Title}</h1>
-        <ReactMarkdown children={article.Description}/>
+        <ReactMarkdown>{article.Description}</ReactMarkdown>
         </div>
       </div>
   );
